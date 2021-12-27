@@ -1,5 +1,5 @@
 void main() {
-  List<int> listInt = [];
+  List<int> listInt = [3, 2, 1];
   final listString = <String>[];
 
   print(listInt);
@@ -9,9 +9,11 @@ void main() {
   final listName = <String>[];
 
   listName.add('harly');
+  listName.add('pwy');
   listName.add('winata');
 
-  print(listName);
-  print(listName.length);
-  print(listName[1]);
+  print(listInt.length);
+  listInt.sort();
+  print(listInt);
+  // print(listName[1]);
 }
